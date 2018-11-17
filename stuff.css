@@ -1,0 +1,113 @@
+html {
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+body {
+	height:100%;
+	margin:0px;
+	padding:0px;
+
+	color:white;
+	font-family:sans-serif;
+	background-color:rgba(255,0,0,255); /*just in case it shows through at the bottom...*/
+}
+@media (min-width:960px) {
+	body {
+		display:grid;
+		grid-template-rows:1fr 5fr;
+	}
+}
+
+a {
+	color:#ddd;
+}
+
+header {
+	background-color:black;
+	border-bottom:1px solid white;
+	text-align:center;
+}
+@media (min-width:960px) {
+	header {
+		display:grid;
+		grid-template-columns:1fr 3fr 4fr;
+		align-items:center;
+		text-align:left;
+	}
+}
+
+header img {
+	max-height:100px;
+	max-width:300px;
+	margin-top:16px;
+}
+@media (min-width:960px) {
+	header img {
+		margin:32px;
+	}
+}
+
+header * {
+	margin:0px 32px;
+}
+
+header h1 {
+	font-family:monospace;
+	text-transform:lowercase;
+	font-size:36px;
+}
+@media (min-width:960px) {
+	header #rightstuff {
+		text-align:right;
+	}
+}
+header #rightstuff * {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#thing-image {
+	background-image:url(img/bg.jpg);
+	background-size:cover;
+	background-position:center;
+	min-height:320px;
+}
+@media (min-width:960px) {
+	#thing-image {
+		min-height:auto;
+	}
+}
+
+#thing-image.wedding { background-image:url(img/wedding.jpg); }
+#thing-image.stemnext { background-image:url(img/stemnext.jpg); }
+#thing-image.panoply { background-image:url(img/panoply.jpg); }
+#thing-image.glowup { background-image:url(img/glowup.jpg); }
+#thing-image.photobooth { background-image:url(img/photobooth.jpg); }
+#thing-image.brewnewables { background-image:url(img/brewnewables.jpg); }
+#thing-image.clouds { background-image:url(img/clouds.jpg); }
+#thing-image.hoopla { background-image:url(img/hoopla.jpg); }
+#thing-image.globepixels { background-image:url(img/globepixels.jpg); }
+#thing-image.rgbeep { background-image:url(img/rgbeep.jpg); }
+#thing-image.huepad { background-image:url(img/huepad.jpg); }
+#thing-image.doublerainbow { background-image:url(img/doublerainbow.jpg); }
+
+article {
+	background-color:rgba(0,255,0,255);
+	border-top:1px solid white;
+	font-size:18px;
+	text-align:center;
+}
+@media (min-width:1200px) {
+	article {
+		display:grid;
+		grid-template-columns:2fr 1fr;
+		align-items:center;
+		text-align:left;
+	}
+}
+
+article > * {
+	margin:32px 48px;
+}
+
