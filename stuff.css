@@ -81,18 +81,21 @@ header #rightstuff * {
 	}
 }
 
-#thing-image.wedding { background-image:url(img/wedding.jpg); }
-#thing-image.stemnext { background-image:url(img/stemnext.jpg); }
+#thing-image { background-image:url(img/landing.jpg); }
+
+    #thing-image.tabled { background-image:url(img/tabled.jpg); }
+    #thing-image.stemnext { background-image:url(img/stemnext.jpg); }
 #thing-image.panoply { background-image:url(img/panoply.jpg); }
-#thing-image.glowup { background-image:url(img/glowup.jpg); }
+    #thing-image.glowup { background-image:url(img/glowup.jpg); }
 #thing-image.photobooth { background-image:url(img/photobooth.jpg); }
-#thing-image.brewnewables { background-image:url(img/brewnewables.jpg); }
-#thing-image.clouds { background-image:url(img/clouds.jpg); }
+    #thing-image.brewnewables { background-image:url(img/brewnewables.jpg); }
+    #thing-image.clouds { background-image:url(img/clouds.jpg); }
 #thing-image.hoopla { background-image:url(img/hoopla.jpg); }
-#thing-image.globepixels { background-image:url(img/globepixels.jpg); }
-#thing-image.rgbeep { background-image:url(img/rgbeep.jpg); }
+    #thing-image.globepixels { background-image:url(img/globepixels.jpg); }
+    #thing-image.rgbeep { background-image:url(img/rgbeep.jpg); }
 #thing-image.huepad { background-image:url(img/huepad.jpg); }
 #thing-image.doublerainbow { background-image:url(img/doublerainbow.jpg); }
+    #thing-image.swing { background-image:url(img/swing.jpg); }
 
 article {
 	/*background-color:rgba(0,255,0,255);*/
