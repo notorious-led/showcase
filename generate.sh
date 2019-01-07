@@ -8,7 +8,7 @@ echo "We will generate: $SLUGS"
 for SLUG in $SLUGS; do
 	echo -n "$SLUG "
 
-	export thing_text="$(cat text/$SLUG.html | xargs)"
+	export thing_text="$(cat text/$SLUG.html)"
 	export thing_slug="$SLUG"
 	j2 template.j2 > "$SLUG.html"
 
