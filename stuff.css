@@ -68,7 +68,6 @@ header #rightstuff * {
 }
 
 #thing-image {
-	background-image:url(img/bg.jpg);
 	background-size:cover;
 	background-position:center;
 	min-height:320px;
@@ -81,7 +80,7 @@ header #rightstuff * {
 	}
 }
 
-#thing-image { background-image:url(img/landing.jpg); }
+#thing-image { background-image:url(img/index.jpg); }
 
     #thing-image.tabled { background-image:url(img/tabled.jpg); }
     #thing-image.stemnext { background-image:url(img/stemnext.jpg); }
