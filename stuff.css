@@ -55,7 +55,7 @@ header * {
 
 header h1 {
 	font-family:monospace;
-	text-transform:lowercase;
+	/*text-transform:lowercase;*/
 	font-size:36px;
 }
 @media (min-width:960px) {
