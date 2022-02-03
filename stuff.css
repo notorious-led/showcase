@@ -143,3 +143,21 @@ article > * {
 	margin:32px 48px;
 }
 
+/*inventory*/
+details {
+	margin-bottom:4px;
+}
+summary strong {
+	margin-right:8px;
+}
+details p {
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-left:32px;
+}
+details p.deets {
+	font-style:italic;
+}
+summary .name {
+	text-decoration:underline;
+}
