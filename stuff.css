@@ -118,6 +118,7 @@ nav * {
 #thing-image.huepad { background-image:url(img/huepad.jpg); }
 #thing-image.doublerainbow { background-image:url(img/doublerainbow.jpg); }
     #thing-image.swing { background-image:url(img/swing.jpg); }
+    #thing-image.vending { background-image:url(img/vending.jpg); }
 
 article {
 	/*background-color:rgba(0,255,0,255);*/
