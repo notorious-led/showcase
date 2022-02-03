@@ -161,3 +161,9 @@ details p.deets {
 summary .name {
 	text-decoration:underline;
 }
+nav.vending_inventory, #thing-image.vending_inventory {
+	display:none;
+}
+.gendate {
+	white-space:nowrap;
+}
