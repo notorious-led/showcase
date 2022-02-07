@@ -122,7 +122,7 @@ nav * {
     #thing-image.huepad { background-image:url(img/huepad.jpg); }
     #thing-image.doublerainbow { background-image:url(img/doublerainbow.jpg); }
     #thing-image.swing { background-image:url(img/swing.jpg); }
-    #thing-image.vending { background-image:url(img/vending.jpg); }
+    #thing-image.vending, #thing-image.vending_inventory { background-image:url(img/vending.jpg); }
 
 article {
 	/*background-color:rgba(0,255,0,255);*/
@@ -161,7 +161,7 @@ details p.deets {
 summary .name {
 	text-decoration:underline;
 }
-nav.vending_inventory, #thing-image.vending_inventory {
+nav.vending_inventory * /*, #thing-image.vending_inventory*/ {
 	display:none;
 }
 .gendate {
