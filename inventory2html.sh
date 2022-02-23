@@ -11,6 +11,10 @@ cat "$1" |
 		MEDIA="$(echo "$LINE" | cut -f 6)"
 		SLOT="$(echo "$LINE" | cut -f 7)"
 		PRICE="$(echo "$LINE" | cut -f 8)"
+		LOAD="$(echo "$LINE" | cut -f 10)"
+		if [ "$LOAD" -eq "0" ]; then
+			continue
+		fi
 		echo "<details><summary><strong>$SLOT ($PRICE)</strong> <span class="name">"$THING"</span></summary><p>$DESC</p><p class="deets">$MEDIA created by $VENDOR</p></details>";
 	done
 
