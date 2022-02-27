@@ -3,4 +3,5 @@
 venv/
 venv3/
 text/vending_inventory.tsv
+.tsv-url
 
